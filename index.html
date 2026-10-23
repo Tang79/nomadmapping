@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nomad Mapping — GIS that works for you.</title>
+  <meta name="description" content="Nomad Mapping is an independent GIS consulting practice in Hood River, Oregon. Maps. Data. Field GIS. Analysis. Workflows. GIS, without the complication.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Google Fonts: Montserrat + Lato -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Brand Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-anchor">
+        <img src="images/logo.png" alt="Nomad Mapping Logo" class="brand-logo-img">
+        <span>Nomad Mapping</span>
+      </a>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link active">Home</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="work.html" class="nav-link">Projects</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-banner">
+    <div class="hero-container">
+      <div class="hero-text">
+        <h1>GIS that works for you.</h1>
+        <div class="hero-subheadline">Maps. Data. Field GIS. Analysis. Workflows.</div>
+        <p class="hero-copy">
+          We help organizations make better use of their geographic data—from building a solid GIS foundation to creating maps, apps, and field workflows that people actually use.
+        </p>
+        <div>
+          <a href="contact.html" class="btn-primary">LET'S TALK <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-photo-badge">
+      <i class="fa-solid fa-mountain-sun"></i> Hood River, Oregon
+    </div>
+  </section>
+
+  <!-- Section: WHAT WE DO -->
+  <section class="section bg-light-gray-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Core Services</div>
+        <h2>GIS, without the complication.</h2>
+        <p class="intro-subtext">
+          Whether you need a better database, a beautiful map, a field data collection workflow, or help figuring out what your spatial data can tell you, we can help.
+        </p>
+      </div>
+
+      <div class="core-grid">
+        <!-- 1. MAPS -->
+        <div class="core-card">
+          <div class="core-card-header">
+            <div class="core-icon-box"><i class="fa-solid fa-map"></i></div>
+            <h3>MAPS</h3>
+          </div>
+          <p>Thoughtful, professional maps that make complex information clear, useful, and easy to understand.</p>
+          <a href="services.html#maps" class="btn-outline">MAPS <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- 2. DATA -->
+        <div class="core-card">
+          <div class="core-card-header">
+            <div class="core-icon-box"><i class="fa-solid fa-database"></i></div>
+            <h3>DATA</h3>
+          </div>
+          <p>Well-organized geographic data and databases designed to support your projects and the way your team works.</p>
+          <a href="services.html#data" class="btn-outline">DATA <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- 3. WEB GIS -->
+        <div class="core-card">
+          <div class="core-card-header">
+            <div class="core-icon-box"><i class="fa-solid fa-globe"></i></div>
+            <h3>WEB GIS</h3>
+          </div>
+          <p>Turn your GIS data into useful online maps, apps, and dashboards with ArcGIS Online.</p>
+          <a href="services.html#webgis" class="btn-outline">WEB GIS <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- 4. FIELD GIS -->
+        <div class="core-card">
+          <div class="core-card-header">
+            <div class="core-icon-box"><i class="fa-solid fa-person-hiking"></i></div>
+            <h3>FIELD GIS</h3>
+          </div>
+          <p>Bring GIS into the field with practical workflows for collecting, updating, and accessing data using Field Maps, Survey123, and QuickCapture.</p>
+          <a href="services.html#fieldgis" class="btn-outline">FIELD GIS <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- 5. ANALYSIS -->
+        <div class="core-card">
+          <div class="core-card-header">
+            <div class="core-icon-box"><i class="fa-solid fa-chart-pie"></i></div>
+            <h3>ANALYSIS</h3>
+          </div>
+          <p>Use geography to uncover patterns, answer questions, and turn data into information that supports better decisions.</p>
+          <a href="services.html#analysis" class="btn-outline">ANALYSIS <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <!-- 6. WORKFLOWS -->
+        <div class="core-card">
+          <div class="core-card-header">
+            <div class="core-icon-box"><i class="fa-solid fa-diagram-project"></i></div>
+            <h3>WORKFLOWS</h3>
+          </div>
+          <p>Connect ArcGIS Pro, ArcGIS Online, and field tools to simplify processes, reduce repetitive work, and get more from your GIS.</p>
+          <a href="services.html#workflows" class="btn-outline">WORKFLOWS <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: FEATURED PROJECTS -->
+  <section class="section bg-white-section">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Projects</div>
+        <h2>GIS that gets put to work.</h2>
+        <p class="intro-subtext">Featured projects where we've helped turn geographic data into clear, actionable tools.</p>
+      </div>
+
+      <div class="story-grid">
+        <!-- Feature 01: Friends of the Columbia Gorge -->
+        <div class="story-card">
+          <div class="story-card-img-wrapper">
+            <img src="images/projects/gorge-sunset.jpg" alt="Friends of the Columbia Gorge GIS Foundation">
+          </div>
+          <div class="story-card-content">
+            <div class="client-tag">Friends of the Columbia Gorge</div>
+            <div class="project-category-sub">Workflows &bull; Data Structure &bull; Static &amp; Dynamic Mapping</div>
+            <h3>Building a GIS that works</h3>
+            <p>Nomad Mapping rebuilt the Friends GIS from the ground up, creating a structured, efficient system for managing spatial data, maps, and files. By integrating traditional map making, ArcGIS Online, and web mapping applications, the system makes information easier to access, track, and use—supporting long-term land stewardship while saving time and resources.</p>
+            <div class="project-card-footer">
+              <a href="work.html#fcg-gis-foundation" class="project-card-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 02: Inter-Fluve -->
+        <div class="story-card">
+          <div class="story-card-img-wrapper">
+            <img src="images/projects/field-data-stream.jpg" alt="Inter-Fluve Field GIS Stream Surveys">
+          </div>
+          <div class="story-card-content">
+            <div class="client-tag">Inter-Fluve</div>
+            <div class="project-category-sub">Mobile Mapping &bull; Workflows</div>
+            <h3>From paper surveys to digital field GIS</h3>
+            <p>We transformed Inter-Fluve’s stream survey process from paper-based to digital. Using Field Maps, surveyors can enter information directly from mobile devices in the field, making data immediately available on the desktop. The workflow reduces post-survey processing and lets surveyors spend less time managing paperwork and more time doing their work.</p>
+            <div class="project-card-footer">
+              <a href="work.html#inter-fluve" class="project-card-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 03: Central Gorge Master Gardeners -->
+        <div class="story-card">
+          <div class="story-card-img-wrapper">
+            <img src="images/projects/master-gardeners-builder.jpg" alt="Central Gorge Master Gardeners Web GIS">
+          </div>
+          <div class="story-card-content">
+            <div class="client-tag">Central Gorge Master Gardeners</div>
+            <div class="project-category-sub">Web GIS &bull; Experience Builder</div>
+            <h3>Making local information easier to explore</h3>
+            <p>An interactive web mapping application was created for the Central Gorge Master Gardeners, showcasing project gardens throughout Hood River County. Built with Experience Builder, the application gives the public an easy way to explore garden locations and learn about each site’s purpose and features.</p>
+            <div class="project-card-footer">
+              <a href="work.html#master-gardeners" class="project-card-link">View Project <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3.5rem;">
+        <a href="work.html" class="btn-secondary-forest">VIEW ALL PROJECTS <i class="fa-solid fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section: WHO WE WORK WITH -->
+  <section class="section bg-light-gray-section">
+    <div class="container">
+      <div style="max-width: 850px; margin: 0 auto; text-align: center;">
+        <div class="section-tag">Client Approach</div>
+        <h2>Big GIS experience. Small-business approach.</h2>
+        <p style="font-size: 1.15rem; color: var(--color-charcoal); line-height: 1.75; margin-bottom: 2rem;">
+          You don't need a huge consulting firm to get great GIS support. We work with organizations that need experienced GIS expertise but don't necessarily need a full-time GIS department. We can jump into an existing project, help clean up a GIS that's gotten complicated, build something from scratch, or take care of a specific piece of a larger project.
+        </p>
+
+        <div class="pill-tags-container" style="justify-content: center;">
+          <span class="pill-tag">Conservation</span>
+          <span class="pill-tag">Natural Resources</span>
+          <span class="pill-tag">Local Government</span>
+          <span class="pill-tag">Recreation</span>
+          <span class="pill-tag">Small Businesses</span>
+          <span class="pill-tag">Nonprofits</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        NOMAD MAPPING &mdash; GIS that works for you.
+      </div>
+
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="work.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <div>&copy; Nomad Mapping, LLC &bull; Hood River, Oregon</div>
+      <div>nomadmapping@gmail.com</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

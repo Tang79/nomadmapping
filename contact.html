@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Nomad Mapping — GIS that works for you.</title>
+  <meta name="description" content="Contact Nomad Mapping, LLC. Have a GIS project in mind? Let's talk. Based in Hood River, Oregon. Email: nomadmapping@gmail.com.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Google Fonts: Montserrat + Lato -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Brand Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Navigation -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-anchor">
+        <img src="images/logo.png" alt="Nomad Mapping Logo" class="brand-logo-img">
+        <span>Nomad Mapping</span>
+      </a>
+
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="services.html" class="nav-link">Services</a></li>
+        <li><a href="work.html" class="nav-link">Projects</a></li>
+        <li><a href="about.html" class="nav-link">About</a></li>
+        <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="section bg-light-gray-section" style="padding-top: 5rem; padding-bottom: 3rem;">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 1.5rem;">
+        <div class="section-tag">Get in Touch</div>
+        <h1>Have a GIS project in mind? Let's talk.</h1>
+        <p class="intro-subtext">
+          Tell us a little about what you're working on, what you're trying to accomplish, or what's not working. You don't need to have the GIS terminology figured out first.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Standalone Contact Section -->
+  <section class="section bg-white-section">
+    <div class="container">
+      <div class="contact-layout">
+        
+        <!-- Embedded Form -->
+        <div class="contact-form-container">
+          <h3 style="margin-bottom: 1.5rem; color: var(--color-black);">Start a Conversation</h3>
+          <form id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name *</label>
+              <input type="text" id="name" class="form-control" placeholder="e.g. Alex Smith" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" class="form-control" placeholder="e.g. alex@organization.org" required>
+            </div>
+
+            <div class="form-group">
+              <label for="organization">Organization / Practice</label>
+              <input type="text" id="organization" class="form-control" placeholder="e.g. Friends of the Columbia Gorge">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Project Details / Goals *</label>
+              <textarea id="message" class="form-control" placeholder="Tell us a little about what you're working on or what's not working..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; font-size: 0.95rem; padding: 0.9rem;">
+              START A CONVERSATION <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Location Card -->
+        <div class="location-card">
+          <h3>Contact Details</h3>
+
+          <div class="location-item">
+            <div class="location-icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <div>
+              <h4>Business Entity</h4>
+              <p>Nomad Mapping, LLC</p>
+            </div>
+          </div>
+
+          <div class="location-item">
+            <div class="location-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div>
+              <h4>Location</h4>
+              <p>Hood River, Oregon (Columbia River Gorge)</p>
+            </div>
+          </div>
+
+          <div class="location-item">
+            <div class="location-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div>
+              <h4>Direct Email</h4>
+              <p><a href="mailto:nomadmapping@gmail.com" style="color: var(--color-grass-green); font-weight: 600;">nomadmapping@gmail.com</a></p>
+            </div>
+          </div>
+
+          <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.15); font-size: 0.9rem; color: rgba(255,255,255,0.85); line-height: 1.6;">
+            <i class="fa-solid fa-circle-info" style="color: var(--color-grass-green); margin-right: 6px;"></i>
+            Whether you need a long-term GIS partner or an extra set of experienced hands for a specific project, we're happy to jump in where you need us.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        NOMAD MAPPING &mdash; GIS that works for you.
+      </div>
+
+      <ul class="footer-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="work.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <div>&copy; Nomad Mapping, LLC &bull; Hood River, Oregon</div>
+      <div>nomadmapping@gmail.com</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
